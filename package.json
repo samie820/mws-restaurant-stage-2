@@ -12,7 +12,8 @@
   },
   "scripts": {
     "debug": "node debug app.js",
-    "start": "node app.js"
+    "start": "node app.js",
+    "dev": "node server && cd client && python3 -m http.server"
   },
   "main": "app.js",
   "repository": {
